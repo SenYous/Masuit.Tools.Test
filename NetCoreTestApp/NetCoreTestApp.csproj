@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Masuit.Tools.Abstractions\Masuit.Tools.Abstractions.csproj" />
+    <ProjectReference Include="..\Masuit.Tools.AspNetCore\Masuit.Tools.AspNetCore.csproj" />
+    <ProjectReference Include="..\Masuit.Tools.Excel\Masuit.Tools.Excel.csproj" />
+  </ItemGroup>
+
+</Project>
